@@ -13,17 +13,14 @@ type Props = {
 
 function Countdown({ targetDate }: Props) {
 
-    //States
     const [timeRemaining, setTimeRemaining] = useState<TimeSplit>({
         days: "00",
         hours: "00",
         minutes: "00",
         seconds: "00"
     });
-    // Functions
-    tick(targetDate, setTimeRemaining);
 
-    // Handles Styles 
+    tick(targetDate, setTimeRemaining);
     const CSS_HANDLES = [
         'countdown__container',
         'countdown__container--text',
