@@ -14,7 +14,7 @@ El componente Countdown muestra un temporizador hacia atrás, en base a una fech
 
 ### Paso 1 - Clonar
 
-Para empezar, [clonar](https://github.com/cristhian-fernandez/itgloberspartnercl-countdown) este repositorio para iniciar ocn la configuración básica. 
+Para empezar, [clonar](https://github.com/cristhian-fernandez/itgloberspartnercl-countdown) este repositorio para iniciar con la configuración básica. 
 ### Paso 2 - Editar 'manifest.json'
 
 Una vez abierto el repositorio de manera local, ingresar al archivo `manifest.json` y allí es donde realizará modificaciones en los siguientes elementos: `vendor`, `name`, `version`, `title` y `description`. Como en el siguiente ejemplo:
